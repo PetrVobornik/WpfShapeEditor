@@ -8,7 +8,7 @@ Shape editor for WPF can be used when you want to allow to the user to work with
 
 ## Usage
 
-Add file [ShapeEditor.cs](https://github.com/PetrVobornik/WpfShapeEditor/blob/master/ShapeEditor.cs) to your project. Shape or Image (or any other compatible element) must be placed on the Canvas container. At the same Canvas you must place one instance of ShapeEditor control. Add to each element a response to an event MouseLeftButtonDown by calling ShapeElement.CaptureElement method. That’s all.
+Add file [ShapeEditor.cs](https://github.com/PetrVobornik/WpfShapeEditor/blob/master/src/ShapeEditor.cs) to your project. Shape or Image (or any other compatible element) must be placed on the Canvas container. At the same Canvas you must place one instance of ShapeEditor control. Add to each element a response to an event MouseLeftButtonDown by calling ShapeElement.CaptureElement method. That’s all.
 
 
 **XAML**
